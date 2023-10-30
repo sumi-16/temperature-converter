@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    align-items: center;
+    justify-content: center;
+    background-image:linear-gradient(rgb(0, 0, 0),rgba(255, 255, 255, 0.062)), url(bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.title{
+    text-transform: uppercase;
+}
+.view{
+    min-height: 100vh;
+}
+.mx-auto{
+    margin-left: auto;
+    margin-right: auto;
+}
+.justify-center{
+    justify-content: center;
+}
+.justify-around{
+    justify-content: space-around;
+}
+.justify-between{
+    justify-content: space-between;
+}
+.item-center{
+    align-items: center;
+}
+.flex{
+    display: flex;
+}
+.text-white{
+    color: white;
+}
+.h1-font{
+    font-size: 70px;
+}.h2-font{
+    font-size: 40px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.p{
+    text-align: center;
+    font-size: large;
+}
+.max-width80{
+    max-width: 80px;
+}
+.justify-between{
+    justify-content: space-between;
+}
+.cel{
+    padding: 20px;
+    font-size: 20px;
+    background: transparent;
+    flex: 1;
+    border: none;
+    outline: none;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 20px;
+    color: #000000;
+}
+.cel input{
+    margin-left: 30px;
+    border: none;
+    background: transparent;
+    flex: 1;
+    border: none;
+    border-bottom: 2px solid black;
+    outline: none;
+    padding: 10px;
+    font-size: 20px;
+    color: #000000;
+}
+.cel input:focus{
+    border: 1px solid black;
+    border-bottom: 2px solid black;
+}
+.kel{
+    padding: 20px;
+    font-size: 20px;
+    background: transparent;
+    flex: 1;
+    border: none;
+    outline: none;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 20px;
+    color: #000000;
+}
+.kel input{
+    margin-left: 40px;
+    border: none;
+    background: transparent;
+    flex: 1;
+    border: none;
+    border-bottom: 2px solid black;
+    outline: none;
+    padding: 10px;
+    font-size: 20px;
+    color: #000000;
+}
+.kel input:focus{
+    border: 1px solid black;
+    border-bottom: 2px solid black;
+}
+.kel input:hover{
+    border: 1px solid black;
+    border-bottom: 2px solid black;
+}
+.fah input:hover{
+    border: 1px solid black;
+    border-bottom: 2px solid black;
+}
+.cel input:hover{
+    border: 1px solid black;
+    border-bottom: 2px solid black;
+}
+.fah{
+    padding: 20px;
+    font-size: 30px;
+    background: transparent;
+    flex: 1;
+    border: none;
+    outline: none;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 20px;
+    color: #000000;
+}
+.fah input{
+    border: none;
+    background: transparent;
+    flex: 1;
+    border: none;
+    border-bottom: 2px solid black;
+    outline: none;
+    padding: 10px;
+    /* padding-right: 0px; */
+    font-size: 20px;
+    color: #000000;
+}
+.fah input:focus{
+    border: 1px solid black;
+    border-bottom: 2px solid black;
+}
+.box{
+    /* width: 600px;
+    height: 600px; */
+    background-color: rgba(255, 255, 255, 0.664);
+    border-radius: 30px;
+    box-shadow: -5px -5px 250px 0 rgb(255, 255, 255,0.02) inset;
+    backdrop-filter: blur(21px);
+    margin: 30px;
+    margin-left: 60vh;
+    margin-right: 60vh;
+    padding: 30px;
+}
