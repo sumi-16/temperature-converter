@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+    <title>Temperature Convertor</title>
+    <link rel="stylesheet"
+        href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="title flex item-center justify-center">
+            <div>
+                <h1 class="text-white h1-font">temperature convertor</h1>
+            </div>
+        </div>
+        <div class="box item-center justify-center ">
+            <div>
+                <h2 class="h2-font">Enter the Temperature</h2>
+            </div>
+            <div>
+                <p class="p">Enter Temperature in Unit that you possess and gain the required temperature in the
+                    required units!</p>
+            </div>
+            <div class="cel">
+                <label for="Celcius">Celcius</label>
+            <input 
+            onchange ="comp(event)"
+            type="number" 
+            name="Celcius" 
+            id="Celcius" 
+            class="Celcius" 
+            placeholder="Celcius Temperature"/>
+            </div>
+            <div class="fah">
+                <label for="fahre">Fahrenheit</label>
+            <input 
+            onchange="comp(event)"
+            type="number" 
+            name="Fahrenheit" 
+            id="Fahrenheit" 
+            class="Fahrenheit" 
+            placeholder="Fahrenheit Temperature"/>
+            </div>
+            <div class="kel">
+                <label for="Kelvin">Kelvin</label>
+            <input 
+            onchange="comp(event)"
+            type="number" 
+            name="Kelvin" 
+            id="Kelvin" 
+            class="Kelvin" 
+            placeholder="Kelvin Temperature"/>    
+            </div>
+        </div>
+
+    </div>
+    <script src="./script.js"></script>
+
+</html>
